@@ -12,5 +12,4 @@ export const Status = styled.span`
 export const Item = styled.li`
   display: flex;
   gap: 15px;
-  align-items: center;
 `;
