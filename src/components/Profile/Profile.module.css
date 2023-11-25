@@ -1,0 +1,13 @@
+.stats {
+  list-style: none;
+}
+.location {
+  color: blue;
+}
+.wrapper {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+}

@@ -1,0 +1,12 @@
+.statList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.item {
+  display: flex;
+  gap: 10px;
+}
+.title {
+  text-align: center;
+}
