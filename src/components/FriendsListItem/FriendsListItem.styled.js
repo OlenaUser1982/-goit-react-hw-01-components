@@ -5,8 +5,8 @@ export const Status = styled.span`
   height: 20px;
   border-radius: 50%;
   display: block;
-  background-color: ${({ isOnline }) => {
-    return isOnline ? 'green' : 'red';
+  background-color: ${({ $isOnline }) => {
+    return $isOnline ? 'green' : 'red';
   }};
 `;
 export const Item = styled.li`
