@@ -9,6 +9,7 @@ export const Status = styled.span`
     return $isOnline ? 'green' : 'red';
   }};
 `;
+
 export const Item = styled.li`
   display: flex;
   gap: 15px;
