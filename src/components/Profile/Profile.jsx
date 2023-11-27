@@ -5,7 +5,7 @@ const Profile = ({ username, stats, avatar, tag, location }) => {
     <div className="profile">
       <div className="description">
         <div className={css.wrapper}>
-          <img src={avatar} alt="User avatar" className="avatar" />
+          <img src={css.avatar} alt="User avatar" className="avatar" />
         </div>
 
         <p className="username">{username}</p>
